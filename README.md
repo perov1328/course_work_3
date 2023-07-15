@@ -1,1 +1,1 @@
-# course_work_3
+# Code for the "Account Transactions" widget
