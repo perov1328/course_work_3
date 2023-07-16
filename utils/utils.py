@@ -31,9 +31,6 @@ def get_executed_transactions(transactions):
     Получение списка успешных транзакций
     """
     successful_transactions = [el for el in transactions if el['state'] == "EXECUTED"]
-    # for el in transactions:
-    #     if el['state'] == "EXECUTED":
-    #         successful_transactions.append(el)
     return successful_transactions
 
 
